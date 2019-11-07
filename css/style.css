@@ -1,0 +1,149 @@
+@import url(./reset.css);
+
+.mainContainer *{
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+.mainMargin{
+    margin: 0 6.5% 0 5%;
+}
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    align-items: center;
+    padding: 0 1% 0 2%;
+
+
+}
+
+.logo{
+    height: 65px;
+}
+.logo img{
+    height: 100%;
+}
+
+.mainHeaderMenu {
+    width: 215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.backgroundImg{
+    height: 400px;
+    background-image: url("../img/forks.jpg") ;
+
+}
+.mainImg{
+    height: 100%;
+    background-image: url("../img/forks.jpg") ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1.5% 1.5% 2% 2%;
+
+
+}
+.postQuestion{
+    background-color: #00CCB1;
+    color: white;
+    text-decoration: none;
+    padding: 25px 35px;
+    font-size: 22px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.userInfo{
+    display: inline-block;
+    background-color: #F6007B;
+    width: 430px;
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
+.userInfoMargins{
+    margin: 0 68px 0 84px;
+}
+.userImg{
+    background-image: url("https://amberroom.rv.ua/wp-content/uploads/sites/2/2015/10/Portret-z-burshtinu-9.jpg");
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    overflow: hidden;
+    margin: -125px auto 0 auto;
+    background-size: 250px auto;
+
+}
+.mainContainer{
+    font-size: 0px;
+}
+.userName{
+    text-align: center;
+}
+.scoreCount{
+    font-size: 56px;
+    margin-right: 16px;
+}
+.scoreBonus{
+    font-size: 19px;
+}
+.score{
+    color: black;
+    font-size: 28px;
+    margin-bottom: 22px;
+}
+.badges{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 45px 0 40px 0;
+    color: black;
+}
+.badgeItem{
+    text-align: center;
+    flex-basis: 70px;
+    margin-bottom: 10px;
+}
+.badgesContainer{
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.photo{
+    position: absolute;
+    right: 90px;
+    top: 50px;
+}
+.viewProfile{
+    width: 100%;
+    background-color: #D80069;
+    padding: 20px 96px;
+    margin-top: 50px;
+}
+.seeAllBadges{
+    color: black;
+}
+.userName>h4{
+    font-size: 30px;
+    padding: 40px 0 16px 0;
+}
+.userName>p{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.viewProfile>a{
+    text-decoration: none;
+    color: white;
+}
+.userInfo>p{
+    display: block;
+}
+.badgeItem>img{
+    width: 100%;
+}
+.badgeItem>span{
+    font-size: 23px;
+}
